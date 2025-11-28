@@ -15,6 +15,6 @@ forces you to write without second-guessing. no editing, no perfectionism, just 
 
 ## usage
 
-open `w.html` in a browser and start typing.
+open [a64.in/w](https://a64.in/w) and start typing.
 
 click "clear" to erase everything and start fresh.
