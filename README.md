@@ -18,3 +18,7 @@ forces you to write without second-guessing. no editing, no perfectionism, just 
 open `w.html` in a browser and start typing.
 
 click "clear" to erase everything and start fresh.
+
+## inspired by
+
+[freewrite](https://github.com/farzaa/freewrite)
