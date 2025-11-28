@@ -233,6 +233,12 @@
             if ((e.ctrlKey || e.metaKey) && (e.key === 'z' || e.key === 'y' || e.key === 'x')) {
                 e.preventDefault();
             }
+            // Prevent typing over selected text (which would delete it)
+            const selection = window.getSelection();
+            if (selection && !selection.isCollapsed && e.key.length === 1 && !e.ctrlKey && !e.metaKey) {
+                e.preventDefault();
+                gtag('event', 'blocked_selection_overwrite', { key: e.key });
+            }
         });
 
         // Clear button
